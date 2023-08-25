@@ -3,7 +3,7 @@ import "./Loader.css"
 const Loader = () => {
   return (
     <div className='loader-wrapper'>
-        <span className="loader"></span> 
+        <span className="loader"></span>  
 
     </div>
   )
