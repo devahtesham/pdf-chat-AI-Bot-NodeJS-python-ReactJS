@@ -1,0 +1,34 @@
+.attach-file-container label {
+    background-color: #6870fa;
+    border-radius: 50%;
+    padding: 88px;
+    transform: translateX(50%);
+    transition-duration: .5s ;
+}
+.attach-file-container label:hover{
+    background-color: #4cceac;
+}
+
+.attach-file-container {
+    position: relative;
+    width: 95%;
+    height: 85vh;
+    margin: auto;
+
+}
+
+.attach-file-wrapper {
+      width: 100%;
+    height: 100%;
+    background-color: #00000047;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-radius: 34px;
+    box-shadow: 0 0 15px 0px #000000ad;
+
+}

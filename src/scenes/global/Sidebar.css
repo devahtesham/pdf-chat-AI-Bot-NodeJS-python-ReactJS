@@ -1,0 +1,38 @@
+.new-chat-container {
+    border: 1px dashed #4cceac;
+    border-radius: 9px;
+    background: transparent;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    padding: 12px 25px;
+    align-items: center;
+    gap: 20px;
+    transition-duration: .5s;
+}
+.new-chat-container:hover{
+    color: #6870fa;
+    background-color: #161e31;
+}
+
+.new-chat-box {
+    cursor: pointer;
+}
+
+.new-chat-box span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.new-chat-box-inner {
+    position: absolute;
+    top: 5px;
+    left: 23px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+input.hidden{
+    visibility: hidden;
+    height: 0;
+}

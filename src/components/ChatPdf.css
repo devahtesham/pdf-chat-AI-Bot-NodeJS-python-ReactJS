@@ -1,0 +1,70 @@
+.chatPdf-wrapper {
+    width: 60%;
+    margin: auto;
+    /* height: 55rem; */
+    background-color: #000;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.chatPdf-wrapper .responseBox {
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 34rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    color: #fff;
+    /* padding: 20px; */
+    font-size: 15px;
+    line-height: 25px;
+}
+.chatPdf-wrapper .chatPdf-container{
+    padding: 20px 10px 10px 10px;
+}
+.chatPdf-wrapper .responseBox::-webkit-scrollbar{
+    width: 5px;
+}
+.chatPdf-wrapper .responseBox::-webkit-scrollbar-track{
+    background-color: #000;
+}
+.chatPdf-wrapper .responseBox::-webkit-scrollbar-thumb {
+    background-color: #6870fa;
+    width: 10px;
+    border-radius: 15px;
+}
+
+.chatPdf-wrapper .responseBox p{
+    padding: 10px 25px 10px 10px;
+}
+
+.chatPdf-wrapper textarea {
+    flex: 0 0 80%;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background: transparent;
+    outline: 0;
+    border: 1px solid #ffffff59;
+    /* width: 350px; */
+    height: 48px;
+    color: #fff;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chatPdf-container .queryBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 20px;
+}
+
+.chatPdf-container .queryBox button {
+    padding: 8px 10px;
+}
+
+.chatPdf-wrapper textarea::-webkit-scrollbar {
+    display: none;
+}
