@@ -61,10 +61,6 @@
     gap: 20px;
 }
 
-.chatPdf-container .queryBox button {
-    padding: 8px 10px;
-}
-
 .chatPdf-wrapper textarea::-webkit-scrollbar {
     display: none;
 }

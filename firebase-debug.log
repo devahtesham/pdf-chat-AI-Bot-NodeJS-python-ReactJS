@@ -1,0 +1,40 @@
+[debug] [2023-08-25T05:33:55.199Z] ----------------------------------------------------------------------
+[debug] [2023-08-25T05:33:55.200Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ahtesham.akram\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-08-25T05:33:55.200Z] CLI Version:   12.5.2
+[debug] [2023-08-25T05:33:55.200Z] Platform:      win32
+[debug] [2023-08-25T05:33:55.201Z] Node Version:  v18.15.0
+[debug] [2023-08-25T05:33:55.202Z] Time:          Fri Aug 25 2023 10:33:55 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-08-25T05:33:55.202Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-25T05:33:55.204Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-08-25T05:33:55.230Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-25T05:33:55.230Z] > authorizing via signed-in user (ahte02254@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\desktop data\learning lectures\uni assignments\IAD Project\chat pdf AI Bot
+
+[debug] [2023-08-25T05:33:55.531Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: self-signed certificate in certificate chain
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-08-25T05:33:55.532Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-08-25T05:34:06.495Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-08-25T05:34:06.672Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: self-signed certificate in certificate chain
+[debug] [2023-08-25T05:34:06.672Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-08-25T05:34:06.840Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\ahtesham.akram\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:239:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
